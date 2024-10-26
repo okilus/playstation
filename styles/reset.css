@@ -52,3 +52,23 @@ a {
     text-decoration: none;
     color: inherit;
 }
+
+h1 {
+	font-size: 3em;
+	font-weight: 500;
+}
+h2 {
+	font-size: 2em;
+}
+h3 {
+	font-size: 1.5em;
+}
+
+p {
+	line-height: 1.5;
+}
+
+button {
+	border: none;
+	outline: none;
+}

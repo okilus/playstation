@@ -1,11 +1,25 @@
 @media screen and (min-width: 480px) {
-    
+    .section-1 {
+        height: 80vh;
+    }
+
+    .img-description {
+        top: 100%;
+    }
 }
 
 
 
 
 @media screen and (min-width: 768px) {
+    h1 {
+        font-size: 3em;
+    }
+
+    .section-1 {
+        height: 90vh;
+    }
+
     nav {
         padding: 0px 20px;    
     }
@@ -27,9 +41,43 @@
 
 
 @media screen and (min-width: 1280px) {
+    h1 {
+        font-size: 4em;
+    }
+
+    .section-1 {
+        height: 65vh;
+    }
+
+    .img-description {
+        top: 80%;
+        padding-left: 2%;
+        background: none;
+        text-align: start;
+    }
+
+    .img-description p {
+        width: 400px;
+    }
+
     ul {
         font-size: 16px;
         font-weight: 500;
         gap: 50px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
+    .section-1 {
+        height: 80vh;
+    }
+
+    .img-description {
+        padding-left: 5%;
+    }
+
+    .img-description button {
+        padding: 12px 20px;
+        font-size: 18px;
     }
 }
