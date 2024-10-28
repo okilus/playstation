@@ -3,8 +3,9 @@
         height: 80vh;
     }
 
-    .img-description {
-        top: 100%;
+    .container-1 img {
+        width: 250px;
+        height: 150px;
     }
 }
 
@@ -14,10 +15,6 @@
 @media screen and (min-width: 768px) {
     h1 {
         font-size: 3em;
-    }
-
-    .section-1 {
-        height: 90vh;
     }
 
     nav {
@@ -35,6 +32,10 @@
         align-items: center;
         gap: 25px;
     }
+
+    .section-1 {
+        height: 90vh;
+    }
 }
 
 
@@ -45,13 +46,19 @@
         font-size: 4em;
     }
 
+    ul {
+        font-size: 16px;
+        font-weight: 500;
+        gap: 50px;
+    }
+
     .section-1 {
         height: 65vh;
     }
 
     .img-description {
-        top: 80%;
-        padding-left: 2%;
+        bottom: 100px;
+        padding-left: 5%;
         background: none;
         text-align: start;
     }
@@ -60,20 +67,15 @@
         width: 400px;
     }
 
-    ul {
-        font-size: 16px;
-        font-weight: 500;
-        gap: 50px;
+    .container-1 img {
+        width: 220px;
+        height: 120px;
     }
 }
 
 @media screen and (min-width: 1600px) {
     .section-1 {
-        height: 80vh;
-    }
-
-    .img-description {
-        padding-left: 5%;
+        height: 75vh;
     }
 
     .img-description button {
