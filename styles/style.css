@@ -93,7 +93,7 @@ h1 {
 .section-2 {
     width: 100%;
     margin-top: 20px;
-    overflow-x: hidden;
+    overflow-x: auto;
 }
 
 .container-1 {
@@ -101,7 +101,7 @@ h1 {
     grid-template-columns: repeat(6, 1fr);
     width: fit-content;
     gap: 15px;
-    padding: 25px 20px;
+    padding: 30px 20px;
     margin: 0 auto;
 }
 
@@ -116,4 +116,106 @@ h1 {
 .main-game {
     border: 2px solid darkcyan;
     padding: 4px;
+}
+
+
+.section-3 {
+    width: 100%;
+    margin-top: 100px;
+}
+
+.big-container {
+    overflow-x: auto;
+}
+
+.section-3 h2 {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.container-2 {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    width: fit-content;
+    gap: 30px;
+    padding: 30px 20px;
+    margin: 0 auto;
+}
+
+.container-2 img{
+    width: 130px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 12px;
+    filter: opacity(80%);
+    box-shadow: 4px 4px 8px gray;
+}
+
+.container-3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+
+.container-3 h3 {
+    color: darkcyan;
+}
+
+.container-3 h4 {
+    font-weight: 600;
+}
+
+.container-3 p {
+    color: gray;
+}
+
+.container-3 img {
+    width: 300px;
+    height: 170px;
+    object-fit: cover;
+    margin: 0 auto;
+}
+
+.btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.find-btn {
+    background-color: darkcyan;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+.buy-btn {
+    background-color: red;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 100px;
+    font-weight: 600;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-2 h2 {
+    display: none;
 }
