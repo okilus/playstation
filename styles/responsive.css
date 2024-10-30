@@ -17,6 +17,11 @@
         width: 470px;
         height: 270px;
     }
+
+    .container-4 img {
+        width: 140px;
+        height: 140px;
+    }
 }
 
 
@@ -47,9 +52,25 @@
         height: 90vh;
     }
 
+    
+
     .container-3 img {
         width: 600px;
         height: 400px;
+    }
+
+    .container-4 {
+        grid-template-columns: repeat(6, 0.5fr);
+        
+    }
+
+    .container-4 img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .section-4 {
+        padding: 60px 50px;
     }
 }
 
@@ -121,7 +142,6 @@
         height: 100%;
         align-items: start;
         text-align: start;
-        /* padding: 50px 0px; */
     }
     
     .container-3 img {
@@ -132,6 +152,15 @@
 
     .box-2 h4 {
         display: none;
+    }
+
+    .container-4 img {
+        width: 180px;
+        height: 180px;
+    }
+
+    .section-4 {
+        padding: 60px 20px;
     }
 
 }
@@ -148,6 +177,11 @@
 
     .container-3 {
         padding-left: 150px;
+    }
+
+    .container-4 img {
+        width: 250px;
+        height: 250px;
     }
 
 }
