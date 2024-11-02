@@ -65,12 +65,12 @@
     }
 
     .container-4 img {
-        width: 100px;
-        height: 100px;
+        width: 120px;
+        height: 120px;
     }
 
     .section-4 {
-        padding: 60px 50px;
+        padding: 60px 10px;
     }
 }
 
@@ -163,6 +163,24 @@
         padding: 60px 20px;
     }
 
+    .section-5 {
+        flex-direction: row;
+        height: 500px;
+    }
+
+    .section-5 img {
+        order: 2;
+        width: 50%;
+        height: 100%;
+    }
+
+    .container-5 {
+        width: 50%;
+        align-items: start;
+        text-align: start;
+        padding: 50px 50px;
+    }
+
 }
 
 @media screen and (min-width: 1600px) {
@@ -184,4 +202,7 @@
         height: 250px;
     }
 
+    .section-5 {
+        height: 800px;
+    }
 }
