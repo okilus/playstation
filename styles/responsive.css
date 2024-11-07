@@ -74,8 +74,6 @@
         height: 90vh;
     }
 
-
-
     .container-3 img {
         width: 600px;
         height: 400px;
@@ -118,6 +116,20 @@
         height: 150px;
     }
 
+    .child-section {
+        flex-direction: row;
+        gap: 100px;
+    }
+
+    .child-section img {
+        width: 50vw;
+        height: 30vw;
+    }
+
+    .container-6 {
+        order: -1;
+        width: 22vw;
+    }
 }
 
 
@@ -126,6 +138,22 @@
 @media screen and (min-width: 1280px) {
     h1 {
         font-size: 4em;
+        font-weight: 500;
+    }
+    h2 {
+        font-size: 2.5em;
+        font-weight: 400;
+    }
+    h3 {
+        font-size: 2.2em;
+        font-weight: 400;
+    }
+    h4 {
+        font-size: 2em;
+        font-weight: 300;
+    }
+    h5 {
+        font-size: 1em;
     }
 
     ul {
@@ -224,6 +252,10 @@
         padding: 50px 50px;
     }
 
+    .child-section img {
+        width: 60vw;
+        height: 35vw;
+    }
 }
 
 @media screen and (min-width: 1600px) {
@@ -269,5 +301,10 @@
 
     .section-7 h2 {
         width: max-content;
+    }
+
+    .child-section img {
+        width: 55vw;
+        height: 30vw;
     }
 }

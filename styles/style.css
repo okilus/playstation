@@ -237,8 +237,8 @@ h1 {
 .section-5 {
     display: flex;
     flex-direction: column;
-    background-color: black;
     color: white;
+    background: linear-gradient(to left, black, rgb(25, 25, 25));
 }
 
 .section-5 img {
@@ -364,4 +364,43 @@ h1 {
     padding: 10px 20px;
     border-radius: 100px;
     font-weight: 800;
+}
+
+.section-8 {
+    width: 100%;
+    height: fit-content;
+    padding: 50px 0px;
+}
+
+.child-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 90vw;
+    height: fit-content;
+    margin: 0 auto;
+}
+
+.child-section img {
+    width: 90vw;
+    height: 50vw;
+    border-radius: 16px;
+    object-fit: cover;
+}
+
+.container-6 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-6 button {
+    background-color: red;
+    color: white;
+    font-weight: 600;
+    padding: 10px 0px;
+    width: 120px;
+    border-radius: 100px;
 }
