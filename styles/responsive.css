@@ -53,6 +53,11 @@
         width: 60vw;
         height: 330px;
     }
+
+
+    .section-10 i {
+        font-size: 12vw;
+    }
 }
 
 
@@ -139,6 +144,16 @@
     .news {
         width: 40vw;
         height: 360px;
+    }
+
+    .section-10 {
+        grid-template-columns: repeat(4, 100px);
+        gap: 60px;
+        padding: 150px 0px;
+    }
+
+    .section-10 i {
+        font-size: 100px;
     }
 }
 
