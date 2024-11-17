@@ -1,13 +1,16 @@
 /* transitions */
 li a,
+button,
 .sign-in,
-.container-1 img {
-    transition: 0.3s all ease;
+.container-1 img,
+.container-2 img,
+.container-4 img,
+.child-section img,
+.game-box,
+.news,
+.section-10 i {
+    transition: 0.2s all ease;
 }
-
-
-
-
 
 
 
@@ -22,9 +25,59 @@ li a:hover {
     background-color: cyan;
 }
 
-.container-1 img:hover {
+.container-1 img:hover,
+.container-2 img:hover {
     transform: translateY(-10px);
     cursor: pointer;
     box-shadow: 0px 12px 10px gray;
     filter: opacity(100%);
+}
+
+button:hover {
+    cursor: pointer;
+    background: linear-gradient(to left, gray, black);
+    color: white;
+}
+
+.container-4 img:hover,
+.child-section img:hover {
+    cursor: pointer;
+    box-shadow: 0px 8px 10px black;
+    transform: scale(1.01);
+}
+
+.game-box:hover {
+    cursor: pointer;
+    background-color: rgb(30, 30, 30);
+    border-radius: 16px;
+    padding: 15px 15px 80px 15px;
+    border: 2px solid gray;
+}
+
+.news:hover {
+    cursor: pointer;
+    box-shadow: -10px 10px 8px gray;
+    transform: scale(1.01);
+
+}
+
+.section-10 i:hover {
+    cursor: pointer;
+    transform: scale(1,1);
+}
+
+.twitter:hover {
+    text-shadow: -4px 4px 4px purple;
+}
+
+.fb:hover {
+    text-shadow: -4px 4px 4px blue;
+}
+
+.instagram:hover {
+    text-shadow: -4px 4px 4px palevioletred;
+}
+
+.yt:hover {
+    text-shadow: -4px 4px 4px red;
 }
